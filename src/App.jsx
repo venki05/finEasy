@@ -1,15 +1,16 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
+import LoginPage from './pages/LoginPage'
+import SucessPage from './pages/SuccessPage'
 
 const App = () => {
   return (
     <>
-    <div className='app-content'>
-      <Navbar/>
-      <h2>finEasy is a platform...</h2>
-      <h3>Consent to acces data</h3>
-      <button>click here</button>
-    </div>
+
+      <Navbar></Navbar>
+      <SucessPage></SucessPage>
+      
+   
     </>
   )
 }
